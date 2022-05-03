@@ -1,0 +1,277 @@
+2021-04-12 19:50:08.594  INFO 1996 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        6a978f3a5fbebff7b5596e798febf2b72650cb77-SNAPSHOT
+	Build:          1223
+	Build time:     11.04.2021 08:21:55 UTC
+	Branch          master
+	Commit:         6a978f3
+	Commit time:    11.04.2021 08:19:49 UTC
+	JVM:            11.0.10
+	Lavaplayer      1.3.76
+
+2021-04-12 19:50:08.778  INFO 1996 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-KM8VEN8 with PID 1996 (C:\Users\Marta\Desktop\Etherium Security 2.2\web\Lavalink.jar started by Marta in C:\Users\Marta\Desktop\Etherium Security 2.2\web)
+2021-04-12 19:50:08.780  INFO 1996 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-04-12 19:50:08.908  WARN 1996 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-04-12 19:50:10.530  WARN 1996 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-04-12 19:50:10.558  INFO 1996 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-04-12 19:50:10.559  INFO 1996 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1713 ms
+2021-04-12 19:50:10.695  INFO 1996 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2021-04-12 19:50:10.959  WARN 1996 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-04-12 19:50:11.301  INFO 1996 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-04-12 19:50:11.562  INFO 1996 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-04-12 19:50:11.563  WARN 1996 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-04-12 19:50:11.846  INFO 1996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 19:50:12.259  INFO 1996 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-04-12 19:50:12.276  INFO 1996 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-04-12 19:50:12.408  INFO 1996 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-04-12 19:50:12.416  INFO 1996 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.472 seconds (JVM running for 5.212)
+2021-04-12 19:50:12.418  INFO 1996 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-04-12 19:50:22.323  INFO 1996 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 19:50:22.324  INFO 1996 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 19:50:22.337  INFO 1996 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-04-12 19:50:22.363  INFO 1996 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:15915
+2021-04-12 19:50:22.437  INFO 1996 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:15915
+2021-04-12 19:50:23.209  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 19:50:23.251  INFO 1996 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:arcade"
+2021-04-12 19:50:23.689  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"sessionId":"f507747f3394eac8a0d7be7a00842124","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"626ed876b65c83f4","guild_id":"818892387098034247","endpoint":"eu-central10052.discord.media:443"}}
+2021-04-12 19:50:26.639  INFO 1996 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: arcade
+2021-04-12 19:50:26.690  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAjwIALkR1bmNhbiBMYXVyZW5jZSAtIEFyY2FkZSAoTHlyaWNzKSBmdC4gRkxFVENIRVIABzdjbG91ZHMAAAAAAALOwAALUE5vemFGenFPdkkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QTm96YUZ6cU92SQAHeW91dHViZQAAAAAAAAAA"}
+2021-04-12 19:52:58.161  INFO 1996 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ES
+Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D]"
+2021-04-12 19:52:58.999  INFO 1996 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ES
+Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D]
+2021-04-12 19:52:59.172  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAjwIALkR1bmNhbiBMYXVyZW5jZSAtIEFyY2FkZSAoTHlyaWNzKSBmdC4gRkxFVENIRVIABzdjbG91ZHMAAAAAAALOwAALUE5vemFGenFPdkkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QTm96YUZ6cU92SQAHeW91dHViZQAAAAAAAAAA"}
+2021-04-12 19:56:03.519  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 19:56:58.284  INFO 1996 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fuck all"
+2021-04-12 19:56:58.798  INFO 1996 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fuck all
+2021-04-12 19:56:58.852  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 19:57:44.335  INFO 1996 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fuck all"
+2021-04-12 19:57:44.868  INFO 1996 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fuck all
+2021-04-12 19:57:44.917  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 19:57:48.306  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:15915 -- CloseStatus[code=1006, reason=]
+2021-04-12 19:57:48.308  INFO 1996 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-04-12 19:57:59.228  INFO 1996 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16004
+2021-04-12 19:57:59.233  INFO 1996 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16004
+2021-04-12 19:58:01.488  INFO 1996 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 19:58:01.513  INFO 1996 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fuck all"
+2021-04-12 19:58:01.715  INFO 1996 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"35921ffcc81ae98a2959ddb4a2d3f2d9","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"626ed876b65c83f4","guild_id":"818892387098034247","endpoint":"eu-central10052.discord.media:443"}}
+2021-04-12 19:58:02.212  INFO 1996 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fuck all
+2021-04-12 19:58:50.179  INFO 1996 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 19:58:51.580  INFO 1996 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 19:59:07.687  INFO 1996 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"818892387098034247","pause":true}
+2021-04-12 19:59:09.271  INFO 1996 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"818892387098034247","pause":false}
+2021-04-12 19:59:15.853  INFO 1996 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 19:59:15.857  INFO 1996 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2021-04-12 19:59:15.874  INFO 1996 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-04-12 19:59:15.896 ERROR 1996 --- [XNIO-1 I/O-8] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2021-04-12 19:59:20.150  INFO 9764 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        6a978f3a5fbebff7b5596e798febf2b72650cb77-SNAPSHOT
+	Build:          1223
+	Build time:     11.04.2021 08:21:55 UTC
+	Branch          master
+	Commit:         6a978f3
+	Commit time:    11.04.2021 08:19:49 UTC
+	JVM:            11.0.10
+	Lavaplayer      1.3.76
+
+2021-04-12 19:59:20.395  INFO 9764 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-KM8VEN8 with PID 9764 (C:\Users\Marta\Desktop\Etherium Security 2.2\web\Lavalink.jar started by Marta in C:\Users\Marta\Desktop\Etherium Security 2.2\web)
+2021-04-12 19:59:20.397  INFO 9764 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-04-12 19:59:20.647  WARN 9764 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-04-12 19:59:24.409  WARN 9764 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-04-12 19:59:24.499  INFO 9764 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-04-12 19:59:24.500  INFO 9764 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4000 ms
+2021-04-12 19:59:24.856  INFO 9764 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2021-04-12 19:59:25.797  WARN 9764 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-04-12 19:59:26.704  INFO 9764 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-04-12 19:59:27.139  INFO 9764 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-04-12 19:59:27.140  WARN 9764 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-04-12 19:59:27.788  INFO 9764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 19:59:28.713  INFO 9764 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-04-12 19:59:28.756  INFO 9764 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-04-12 19:59:28.944  INFO 9764 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-04-12 19:59:28.955  INFO 9764 --- [main] lavalink.server.Launcher                 : Started Launcher in 10.109 seconds (JVM running for 11.472)
+2021-04-12 19:59:28.963  INFO 9764 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-04-12 19:59:44.938  INFO 9764 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 19:59:44.940  INFO 9764 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 19:59:44.959  INFO 9764 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-04-12 19:59:45.005  INFO 9764 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16107
+2021-04-12 19:59:45.150  INFO 9764 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16107
+2021-04-12 19:59:46.260  INFO 9764 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 19:59:46.323  INFO 9764 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 19:59:46.827  INFO 9764 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"sessionId":"ea813f11a328ca5602b3b86a5cc19951","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"626ed876b65c83f4","guild_id":"818892387098034247","endpoint":"eu-central10052.discord.media:443"}}
+2021-04-12 19:59:49.776  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:00:29.542  INFO 9764 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:00:30.157  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:00:41.069  INFO 9764 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16107 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:00:41.070  INFO 9764 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:01:22.476  INFO 9764 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16157
+2021-04-12 20:01:22.482  INFO 9764 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16157
+2021-04-12 20:01:24.315  INFO 9764 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 20:01:24.339  INFO 9764 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:01:24.539  INFO 9764 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"f26ca44f6590e77cf1c7a5996824845e","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"626ed876b65c83f4","guild_id":"818892387098034247","endpoint":"eu-central10052.discord.media:443"}}
+2021-04-12 20:01:24.959  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:01:25.022  INFO 9764 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:01:29.537  INFO 9764 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:01:30.261  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:01:30.354  INFO 9764 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:01:55.340  INFO 9764 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:01:55.919  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:01:55.984  INFO 9764 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:02:47.701  INFO 9764 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16157 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:02:47.702  INFO 9764 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-04-12 20:02:53.983  INFO 9764 --- [XNIO-1 task-13] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16191
+2021-04-12 20:02:53.994  INFO 9764 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16191
+2021-04-12 20:02:57.240  INFO 9764 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 20:02:57.261  INFO 9764 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:02:57.459  INFO 9764 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"fe58efc92242275125eaf2a37cbce15d","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"626ed876b65c83f4","guild_id":"818892387098034247","endpoint":"eu-central10052.discord.media:443"}}
+2021-04-12 20:02:57.770  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:02:57.853  INFO 9764 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:03:01.969  INFO 9764 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:03:02.439  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:03:02.507  INFO 9764 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:03:09.499  INFO 9764 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:03:10.028  INFO 9764 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:03:10.090  INFO 9764 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:15:53.915  INFO 22744 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        6a978f3a5fbebff7b5596e798febf2b72650cb77-SNAPSHOT
+	Build:          1223
+	Build time:     11.04.2021 08:21:55 UTC
+	Branch          master
+	Commit:         6a978f3
+	Commit time:    11.04.2021 08:19:49 UTC
+	JVM:            11.0.10
+	Lavaplayer      1.3.76
+
+2021-04-12 20:15:54.045  INFO 22744 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-KM8VEN8 with PID 22744 (C:\Users\Marta\Desktop\Etherium Security 2.2\web\Lavalink.jar started by Marta in C:\Users\Marta\Desktop\Etherium Security 2.2\web)
+2021-04-12 20:15:54.046  INFO 22744 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-04-12 20:15:54.162  WARN 22744 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-04-12 20:15:55.696  WARN 22744 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-04-12 20:15:55.720  INFO 22744 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-04-12 20:15:55.720  INFO 22744 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1619 ms
+2021-04-12 20:15:55.851  INFO 22744 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2021-04-12 20:15:56.124  WARN 22744 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-04-12 20:15:56.395  INFO 22744 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-04-12 20:15:56.585  INFO 22744 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-04-12 20:15:56.586  WARN 22744 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-04-12 20:15:56.889  INFO 22744 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 20:15:57.260  INFO 22744 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-04-12 20:15:57.278  INFO 22744 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-04-12 20:15:57.398  INFO 22744 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-04-12 20:15:57.408  INFO 22744 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.086 seconds (JVM running for 4.645)
+2021-04-12 20:15:57.414  INFO 22744 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-04-12 20:16:10.654  INFO 22744 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 20:16:10.656  INFO 22744 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 20:16:10.669  INFO 22744 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-04-12 20:16:10.703  INFO 22744 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16444
+2021-04-12 20:16:10.823  INFO 22744 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16444
+2021-04-12 20:16:14.975  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 20:16:15.009  INFO 22744 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:16:15.588  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"dbce060e14249d8cddb2b394db469935","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"626ed876b65c83f4","guild_id":"818892387098034247","endpoint":"eu-central10052.discord.media:443"}}
+2021-04-12 20:16:18.603  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:16:18.657  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:19:44.450  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"818892387098034247"}
+2021-04-12 20:21:08.250  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16444 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:21:08.252  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:21:10.643  INFO 22744 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16529
+2021-04-12 20:21:10.647  INFO 22744 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16529
+2021-04-12 20:21:29.107  INFO 22744 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16529 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:21:29.107  INFO 22744 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:21:31.264  INFO 22744 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16543
+2021-04-12 20:21:31.267  INFO 22744 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16543
+2021-04-12 20:21:45.291  INFO 22744 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 20:21:45.307  INFO 22744 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:21:46.280  INFO 22744 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"49e1f0a2470394b42ffdb62b6197e8ec","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"c5c68ef606cb9484","guild_id":"818892387098034247","endpoint":"eu-central277.discord.media:443"}}
+2021-04-12 20:21:46.708  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:21:49.570  INFO 22744 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16543 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:21:49.571  INFO 22744 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:21:51.913  INFO 22744 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16563
+2021-04-12 20:21:51.917  INFO 22744 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16563
+2021-04-12 20:21:59.306  INFO 22744 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 20:21:59.331  INFO 22744 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:21:59.534  INFO 22744 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"sessionId":"c3215f9bd147cc8ded7ba66ba7935f1d","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"c5c68ef606cb9484","guild_id":"818892387098034247","endpoint":"eu-central277.discord.media:443"}}
+2021-04-12 20:21:59.836  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:22:07.431  INFO 22744 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16563 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:22:07.433  INFO 22744 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:22:09.575  INFO 22744 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16581
+2021-04-12 20:22:09.578  INFO 22744 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16581
+2021-04-12 20:22:11.690  INFO 22744 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 20:22:11.699  INFO 22744 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16581 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:22:11.701  INFO 22744 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:22:21.128  INFO 22744 --- [XNIO-1 task-12] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16594
+2021-04-12 20:22:21.132  INFO 22744 --- [XNIO-1 task-12] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16594
+2021-04-12 20:32:32.986  INFO 22744 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16594 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:32:32.987  INFO 22744 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:32:48.375  INFO 22744 --- [XNIO-1 task-13] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16708
+2021-04-12 20:32:48.384  INFO 22744 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16708
+2021-04-12 20:33:25.253  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16708 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:33:25.254  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:33:53.624  INFO 22744 --- [XNIO-1 task-14] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16740
+2021-04-12 20:33:53.628  INFO 22744 --- [XNIO-1 task-14] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16740
+2021-04-12 20:41:00.932  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16740 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:41:00.933  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:41:10.283  INFO 22744 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16916
+2021-04-12 20:41:10.291  INFO 22744 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16916
+2021-04-12 20:44:27.503  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16916 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:44:27.505  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-04-12 20:46:20.914  INFO 22744 --- [XNIO-1 task-16] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:16996
+2021-04-12 20:46:20.919  INFO 22744 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:16996
+2021-04-12 20:46:33.645  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"818892387098034247","volume":100}
+2021-04-12 20:46:33.661  INFO 22744 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:arcade"
+2021-04-12 20:46:33.867  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"a45f17df5e200d015f3132a4910fad37","op":"voiceUpdate","guildId":"818892387098034247","event":{"token":"dfe569636a76d81c","guild_id":"818892387098034247","endpoint":"eu-central747.discord.media:443"}}
+2021-04-12 20:46:34.562  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: arcade
+2021-04-12 20:46:54.495  INFO 22744 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:arcade"
+2021-04-12 20:46:55.407  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: arcade
+2021-04-12 20:48:18.107  INFO 22744 --- [XNIO-1 task-21] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:arcade"
+2021-04-12 20:48:18.728  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: arcade
+2021-04-12 20:51:07.235  INFO 22744 --- [XNIO-1 task-23] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:arcade"
+2021-04-12 20:51:08.315  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: arcade
+2021-04-12 20:51:17.618  INFO 22744 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:51:18.508  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:51:22.405  INFO 22744 --- [XNIO-1 task-27] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?"
+2021-04-12 20:51:23.283  INFO 22744 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Twenty One Pilots - Stressed Out [9D AUDIO | NOT 8D] ?
+2021-04-12 20:51:23.328  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"play","guildId":"818892387098034247","track":"QAAAoAIAO1R3ZW50eSBPbmUgUGlsb3RzIC0gU3RyZXNzZWQgT3V0IFs5RCBBVURJTyB8IE5PVCA4RF0g7aC87b6nAAtTaGFrZSBNdXNpYwAAAAAAAxUQAAs3c2RwaXdkVVFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdzZHBpd2RVUVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-04-12 20:51:23.342  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:16996 -- CloseStatus[code=1006, reason=]
+2021-04-12 20:51:23.343  INFO 22744 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
